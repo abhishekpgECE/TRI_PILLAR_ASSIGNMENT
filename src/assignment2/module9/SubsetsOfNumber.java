@@ -9,6 +9,8 @@ public class SubsetsOfNumber {
         int[] arr={4,5,6};
         List<List<Integer>> result=sn.subsets(arr);
         for(List<Integer> subset:result){
+
+
             System.out.println(subset);
         }
     }
